@@ -2,6 +2,156 @@
   <div class="code-bg">
     <pre class="code-line">while(true) { console.log("Yana Informatique - Dépannage - Web - Assistance"); }</pre>
     <pre class="code-line" style="animation-delay: 2s;">if(user.needsHelp) { call("Yana Informatique"); }</pre>
+    <pre class="code-line" style="animation-delay: 4s;"
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yana Informatique</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background: black;
+      color: #00ffcc;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      border-bottom: 1px solid #00ffcc;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1em;
+      color: #ccffff;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffcc22;
+    }
+
+    h2 {
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #cccccc;
+      margin-top: 30px;
+    }
+
+    .code-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .code-line {
+      font-size: 14px;
+      color: #00ffcc44;
+      white-space: nowrap;
+      animation: scrollCode 10s linear infinite;
+    }
+
+    @keyframes scrollCode {
+      0% {
+        transform: translateY(100vh);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="code-bg">
+    <pre class="code-line">while(true) { console.log("Yana Informatique - Dépannage - Web - Assistance"); }</pre>
+    <pre class="code-line" style="animation-delay: 2s;">if(user.needsHelp) { call("Yana Informatique"); }</pre>
     <pre class="code-line" style="animation-delay: 4s;">function réparer(pc) { return pc.fonctionne = true; }</pre>
+  </div>
+
+  <div class="content">
+    <header>
+      <img src="logoyanainformatique.png" alt="Logo Yana Informatique" />
+      <div>
+        <h1>Yana Informatique</h1>
+        <p>Votre expert informatique en Guyane</p>
+      </div>
+    </header>
+
+    <section id="services">
+      <h2>Nos Services</h2>
+      <ul>
+        <li>Dépannage PC / Mac</li>
+        <li>Création de sites web</li>
+        <li>Installation de logiciels</li>
+        <li>Assistance à domicile</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Yana Informatique est une entreprise locale basée en Guyane, spécialisée dans le dépannage, la création de sites et l'assistance numérique pour particuliers et professionnels.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email : yana.informatique@gmail.com</p>
+      <p>Téléphone : 06 94 XX XX XX</p>
+      <p>Zone d'intervention : Cayenne, Matoury, Rémire-Montjoly</p>
+    </section>
+
+    <footer>
+      &copy; 2025 Yana Informatique. Tous droits réservés.
+    </footer>
+  </div>
+</body>
+</html>
+</pre>
   </div>
 
