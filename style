@@ -1,5 +1,7 @@
-code code code 
 
-jepvyl 
-vv,r z
-,a ej,,vnvjkvnxcnlkndpuuvf
+  <div class="code-bg">
+    <pre class="code-line">while(true) { console.log("Yana Informatique - Dépannage - Web - Assistance"); }</pre>
+    <pre class="code-line" style="animation-delay: 2s;">if(user.needsHelp) { call("Yana Informatique"); }</pre>
+    <pre class="code-line" style="animation-delay: 4s;">function réparer(pc) { return pc.fonctionne = true; }</pre>
+  </div>
+
